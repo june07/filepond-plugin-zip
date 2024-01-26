@@ -1,0 +1,38 @@
+{
+	"name": "filepond-plugin-zip",
+	"version": "1.0.0",
+	"import": "json",
+	"description": "Zip Files plugin for FilePond",
+	"main": "dist/filepond-plugin-zip.js",
+	"browser": "dist/filepond-plugin-zip.js",
+	"module": "dist/filepond-plugin-zip.esm.js",
+	"type": "module",
+	"scripts": {
+		"start": "npx rollup -c -w",
+		"build": "npx rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/june07/filepond-plugin-zip.git"
+	},
+	"keywords": [
+		"filepond",
+		"zip",
+		"plugin"
+	],
+	"author": "june07",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/june07/filepond-plugin-zip/issues"
+	},
+	"homepage": "https://github.com/june07/filepond-plugin-zip#readme",
+	"devDependencies": {
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-terser": "^0.4.4",
+		"rollup": "^4.9.6",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-license": "^3.2.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-prettier": "^4.1.1"
+	}
+}
