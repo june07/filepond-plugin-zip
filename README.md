@@ -1,6 +1,6 @@
 # Zip File plugin for FilePond
 
-[![npm version](https://badge.fury.io/js/filepond-plugin-zipfile.svg)](https://badge.fury.io/js/filepond)
+[![npm version](https://badge.fury.io/js/filepond-plugin-zipfile.svg)](https://badge.fury.io/js/filepond-plugin-zipfile)
 
 https://github.com/june07/filepond-plugin-zip
 
